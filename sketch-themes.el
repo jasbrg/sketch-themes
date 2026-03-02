@@ -87,7 +87,7 @@ VARIANT is bound."
       (lazy-highlight (:foreground ,fg :background ,weaker))
       (link (:underline t))
       (parenthesis (:foreground ,weak))
-      (trailing-whitespace (:foreground nil :background ,warning))
+      (trailing-whitespace (:foreground unspecified :background ,warning))
       (cursor (:background ,fg :foreground ,bg))
       (vertical-border (:foreground ,fg))
       (default-italic (:italic t))
